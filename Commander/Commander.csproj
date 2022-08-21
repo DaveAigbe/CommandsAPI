@@ -21,4 +21,10 @@
         <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Commander.Tests\Commander.Tests\obj\Commander.Tests.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="Commander.Tests\Commander.Tests\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="Commander.Tests\Commander.Tests\obj\project.packagespec.json" />
+    </ItemGroup>
+
 </Project>
